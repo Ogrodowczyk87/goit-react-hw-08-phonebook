@@ -1,0 +1,14 @@
+.container {
+  min-height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.title {
+  font-weight: 550;
+  font-size: 78px;
+  text-align: center;
+  color: white;
+}

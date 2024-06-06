@@ -1,0 +1,9 @@
+.contactListItem {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  gap: 30px;
+}
+/* Change styling, add contact container */
