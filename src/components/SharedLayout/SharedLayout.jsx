@@ -5,12 +5,15 @@ import css from './SharedLayout.module.css';
 
 export const SharedLayout = () => {
   return (
-    <div className={css.container}>
+    <div className={css.layout}>
       <Header />
-      <Suspense fallback={null}>
-        <Outlet />
-      </Suspense>
-      
+      <main className={css.main}>
+        <div className={css.container}>
+          <Suspense fallback={null}>
+            <Outlet />
+          </Suspense>
+        </div>
+      </main>
     </div>
   );
 };
